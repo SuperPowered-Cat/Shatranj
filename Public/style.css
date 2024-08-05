@@ -1,0 +1,17 @@
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#board {
+    width: 400px;
+}
