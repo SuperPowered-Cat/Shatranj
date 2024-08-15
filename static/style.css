@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #6f5b3a;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+#board div {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
